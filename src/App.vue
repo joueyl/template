@@ -1,4 +1,13 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { onMounted } from 'vue';
+import { requst } from './utils/http';
+onMounted(async()=>{
+ const data = await requst<RootObject>({
+    url:'/banner?type=0'
+  })
+  console.log(data)
+})
+</script>
 
 <template>
   <div class="content">
