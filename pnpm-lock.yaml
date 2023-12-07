@@ -5,15 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  amfe-flexible:
-    specifier: ^2.2.1
-    version: registry.npmmirror.com/amfe-flexible@2.2.1
   pinia:
     specifier: ^2.1.7
     version: registry.npmmirror.com/pinia@2.1.7(typescript@5.2.2)(vue@3.3.10)
-  postcss-pxtorem:
-    specifier: ^6.0.0
-    version: registry.npmmirror.com/postcss-pxtorem@6.0.0(postcss@8.4.32)
   vue:
     specifier: ^3.3.10
     version: registry.npmmirror.com/vue@3.3.10(typescript@5.2.2)
@@ -37,9 +31,15 @@ devDependencies:
   '@vue/tsconfig':
     specifier: ^0.4.0
     version: registry.npmmirror.com/@vue/tsconfig@0.4.0
+  amfe-flexible:
+    specifier: ^2.2.1
+    version: registry.npmmirror.com/amfe-flexible@2.2.1
   npm-run-all2:
     specifier: ^6.1.1
     version: registry.npmmirror.com/npm-run-all2@6.1.1
+  postcss-pxtorem:
+    specifier: ^6.0.0
+    version: registry.npmmirror.com/postcss-pxtorem@6.0.0(postcss@8.4.32)
   typescript:
     specifier: ~5.2.0
     version: registry.npmmirror.com/typescript@5.2.2
@@ -675,7 +675,7 @@ packages:
     resolution: {integrity: sha512-L2VfvDzoETBjhRptg5u/IUuzHSuxm22JpSRb404p/TBGeRfwWmmNEbB+TFPIP/sS/+pbM18bCFH9QnMojLuPNw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/amfe-flexible/-/amfe-flexible-2.2.1.tgz}
     name: amfe-flexible
     version: 2.2.1
-    dev: false
+    dev: true
 
   registry.npmmirror.com/ansi-styles@3.2.1:
     resolution: {integrity: sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/ansi-styles/-/ansi-styles-3.2.1.tgz}
@@ -1050,7 +1050,7 @@ packages:
       postcss: ^8.0.0
     dependencies:
       postcss: registry.npmmirror.com/postcss@8.4.32
-    dev: false
+    dev: true
 
   registry.npmmirror.com/postcss@8.4.32:
     resolution: {integrity: sha512-D/kj5JNu6oo2EIy+XL/26JEDTlIbB8hw85G8StOE6L74RQAVVP5rej6wxCNqyMbR4RkPfqvezVbPw81Ngd6Kcw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/postcss/-/postcss-8.4.32.tgz}

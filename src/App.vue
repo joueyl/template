@@ -2,6 +2,7 @@
 
 <template>
   <div class="content">
+    <img src="@/assets/logo.svg" class="logo" alt="">
     <div class="el-header">
       i cant auto change for fontsize and element size
     </div>
@@ -11,10 +12,15 @@
 </template>
 
 <style scoped>
+.logo{
+  width: 100px;
+  margin-bottom: 40px;
+}
 .content{
   display: flex;
   flex-direction: column;
   justify-content: center; 
+  align-items: center;
   height: 100vh;
 }
 .el-header {
